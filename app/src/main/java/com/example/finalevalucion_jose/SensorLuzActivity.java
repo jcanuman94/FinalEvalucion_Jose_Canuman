@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 public class SensorLuzActivity extends AppCompatActivity implements SensorEventListener {
 
+
     TextView Luz;
     SensorManager sensorManager;
     Sensor sensor;
