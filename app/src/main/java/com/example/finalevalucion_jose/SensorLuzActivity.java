@@ -20,7 +20,7 @@ public class SensorLuzActivity extends AppCompatActivity implements SensorEventL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensor_luz);
 
-        Luz = findViewById(R.id.Lux);
+        Luz = (TextView) findViewById(R.id.Lux);
         sensorManager=(SensorManager)getSystemService(Service.SENSOR_SERVICE);
         sensor=sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
     }
