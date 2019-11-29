@@ -25,8 +25,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.BtnListar:
                 miIntent=new Intent(MainActivity.this,ListaUsuariosActivity.class);
+                break;
             case R.id.BtnSensor:
                 miIntent=new Intent(MainActivity.this,SensorLuzActivity.class);
+                break;
         }
         if(miIntent!=null){
             startActivity(miIntent);
